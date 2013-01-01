@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C3CD3D31692648000D12F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CD3D21692648000D12F69 /* AppDelegate.swift */; };
+		8C3CD3D61692648000D12F69 /* MusicHackDay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CD3D41692648000D12F69 /* MusicHackDay.xcdatamodeld */; };
+		8C3CD3D81692648000D12F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CD3D71692648000D12F69 /* ViewController.swift */; };
+		8C3CD3DB1692648000D12F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CD3D91692648000D12F69 /* Main.storyboard */; };
+		8C3CD3DD1692648000D12F69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CD3DC1692648000D12F69 /* Images.xcassets */; };
+		8C3CD3E01692648000D12F69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C3CD3DE1692648000D12F69 /* LaunchScreen.xib */; };
+		8C3CD3EC1692648000D12F69 /* MusicHackDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CD3EB1692648000D12F69 /* MusicHackDayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C3CD3E61692648000D12F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C3CD3C51692648000D12F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3CD3CC1692648000D12F69;
+			remoteInfo = MusicHackDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C3CD3CD1692648000D12F69 /* MusicHackDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicHackDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3CD3D11692648000D12F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3CD3D21692648000D12F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C3CD3D51692648000D12F69 /* MusicHackDay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicHackDay.xcdatamodel; sourceTree = "<group>"; };
+		8C3CD3D71692648000D12F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C3CD3DA1692648000D12F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C3CD3DC1692648000D12F69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C3CD3DF1692648000D12F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8C3CD3E51692648000D12F69 /* MusicHackDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicHackDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3CD3EA1692648000D12F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3CD3EB1692648000D12F69 /* MusicHackDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHackDayTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C3CD3CA1692648000D12F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3CD3E21692648000D12F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C3CD3C41692648000D12F69 = {
+			isa = PBXGroup;
+			children = (
+				8C3CD3CF1692648000D12F69 /* MusicHackDay */,
+				8C3CD3E81692648000D12F69 /* MusicHackDayTests */,
+				8C3CD3CE1692648000D12F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C3CD3CE1692648000D12F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CD3CD1692648000D12F69 /* MusicHackDay.app */,
+				8C3CD3E51692648000D12F69 /* MusicHackDayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3CD3CF1692648000D12F69 /* MusicHackDay */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CD3D21692648000D12F69 /* AppDelegate.swift */,
+				8C3CD3D71692648000D12F69 /* ViewController.swift */,
+				8C3CD3D91692648000D12F69 /* Main.storyboard */,
+				8C3CD3DC1692648000D12F69 /* Images.xcassets */,
+				8C3CD3DE1692648000D12F69 /* LaunchScreen.xib */,
+				8C3CD3D41692648000D12F69 /* MusicHackDay.xcdatamodeld */,
+				8C3CD3D01692648000D12F69 /* Supporting Files */,
+			);
+			path = MusicHackDay;
+			sourceTree = "<group>";
+		};
+		8C3CD3D01692648000D12F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CD3D11692648000D12F69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C3CD3E81692648000D12F69 /* MusicHackDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CD3EB1692648000D12F69 /* MusicHackDayTests.swift */,
+				8C3CD3E91692648000D12F69 /* Supporting Files */,
+			);
+			path = MusicHackDayTests;
+			sourceTree = "<group>";
+		};
+		8C3CD3E91692648000D12F69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C3CD3EA1692648000D12F69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3CD3CC1692648000D12F69 /* MusicHackDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3CD3EF1692648000D12F69 /* Build configuration list for PBXNativeTarget "MusicHackDay" */;
+			buildPhases = (
+				8C3CD3C91692648000D12F69 /* Sources */,
+				8C3CD3CA1692648000D12F69 /* Frameworks */,
+				8C3CD3CB1692648000D12F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicHackDay;
+			productName = MusicHackDay;
+			productReference = 8C3CD3CD1692648000D12F69 /* MusicHackDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C3CD3E41692648000D12F69 /* MusicHackDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3CD3F21692648000D12F69 /* Build configuration list for PBXNativeTarget "MusicHackDayTests" */;
+			buildPhases = (
+				8C3CD3E11692648000D12F69 /* Sources */,
+				8C3CD3E21692648000D12F69 /* Frameworks */,
+				8C3CD3E31692648000D12F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C3CD3E71692648000D12F69 /* PBXTargetDependency */,
+			);
+			name = MusicHackDayTests;
+			productName = MusicHackDayTests;
+			productReference = 8C3CD3E51692648000D12F69 /* MusicHackDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C3CD3C51692648000D12F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "羽田 健太郎";
+				TargetAttributes = {
+					8C3CD3CC1692648000D12F69 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8C3CD3E41692648000D12F69 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8C3CD3CC1692648000D12F69;
+					};
+				};
+			};
+			buildConfigurationList = 8C3CD3C81692648000D12F69 /* Build configuration list for PBXProject "MusicHackDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C3CD3C41692648000D12F69;
+			productRefGroup = 8C3CD3CE1692648000D12F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3CD3CC1692648000D12F69 /* MusicHackDay */,
+				8C3CD3E41692648000D12F69 /* MusicHackDayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C3CD3CB1692648000D12F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3CD3DB1692648000D12F69 /* Main.storyboard in Resources */,
+				8C3CD3E01692648000D12F69 /* LaunchScreen.xib in Resources */,
+				8C3CD3DD1692648000D12F69 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3CD3E31692648000D12F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C3CD3C91692648000D12F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3CD3D81692648000D12F69 /* ViewController.swift in Sources */,
+				8C3CD3D31692648000D12F69 /* AppDelegate.swift in Sources */,
+				8C3CD3D61692648000D12F69 /* MusicHackDay.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3CD3E11692648000D12F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3CD3EC1692648000D12F69 /* MusicHackDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C3CD3E71692648000D12F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C3CD3CC1692648000D12F69 /* MusicHackDay */;
+			targetProxy = 8C3CD3E61692648000D12F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C3CD3D91692648000D12F69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C3CD3DA1692648000D12F69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C3CD3DE1692648000D12F69 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C3CD3DF1692648000D12F69 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C3CD3ED1692648000D12F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C3CD3EE1692648000D12F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C3CD3F01692648000D12F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicHackDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C3CD3F11692648000D12F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicHackDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C3CD3F31692648000D12F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicHackDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicHackDay.app/MusicHackDay";
+			};
+			name = Debug;
+		};
+		8C3CD3F41692648000D12F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicHackDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicHackDay.app/MusicHackDay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C3CD3C81692648000D12F69 /* Build configuration list for PBXProject "MusicHackDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3CD3ED1692648000D12F69 /* Debug */,
+				8C3CD3EE1692648000D12F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3CD3EF1692648000D12F69 /* Build configuration list for PBXNativeTarget "MusicHackDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3CD3F01692648000D12F69 /* Debug */,
+				8C3CD3F11692648000D12F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C3CD3F21692648000D12F69 /* Build configuration list for PBXNativeTarget "MusicHackDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3CD3F31692648000D12F69 /* Debug */,
+				8C3CD3F41692648000D12F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C3CD3D41692648000D12F69 /* MusicHackDay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C3CD3D51692648000D12F69 /* MusicHackDay.xcdatamodel */,
+			);
+			currentVersion = 8C3CD3D51692648000D12F69 /* MusicHackDay.xcdatamodel */;
+			path = MusicHackDay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C3CD3C51692648000D12F69 /* Project object */;
+}
