@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 OneWorld Inc. All rights reserved.
 //
 
-//UIColorのextensionとして登録しておく
+
 extension Array {
     mutating func removeObject<U: Equatable>(object: U) -> Bool {
         for (idx, objectToCompare) in enumerate(self) {
@@ -19,76 +19,6 @@ extension Array {
         }
         return false
     }
-}
-
-extension UILabel{
-    func popAnimationWithAlpha(delay:NSTimeInterval){
-//        var frame = self.frame
-        self.alpha = 0.0
-//        self.frame = CGRectMake(self.frame.origin.x + self.frame.width/2, self.frame.origin.y + self.frame.height/2, 0, 0)
-        
-        UIView.animateWithDuration(0.2,
-            delay: delay,
-            usingSpringWithDamping: 1.0,
-            initialSpringVelocity: 0.5,
-            options: nil,
-            animations: {
-//                self.frame = frame
-                self.alpha = 1.0
-            }, completion:{success in
-        })
-    }}
-
-extension UIButton{
-    func popAnimation(delay:NSTimeInterval){
-        var frame = self.frame
-        self.frame = CGRectMake(self.frame.origin.x + self.frame.width/2, self.frame.origin.y + self.frame.height/2, 0, 0)
-        
-        UIView.animateWithDuration(0.2,
-            delay: delay,
-            usingSpringWithDamping: 1.0,
-            initialSpringVelocity: 0.5,
-            options: nil,
-            animations: {
-                self.frame = frame
-                self.alpha = 1.0
-            }, completion:{success in
-        })
-    }
-}
-
-extension UIColor {
-    class func hex (var hexStr : NSString, var alpha : CGFloat) -> UIColor {
-        hexStr = hexStr.stringByReplacingOccurrencesOfString("#", withString: "")
-        let scanner = NSScanner(string: hexStr as String)
-        var color: UInt32 = 0
-        if scanner.scanHexInt(&color) {
-            let r = CGFloat((color & 0xFF0000) >> 16) / 255.0
-            let g = CGFloat((color & 0x00FF00) >> 8) / 255.0
-            let b = CGFloat(color & 0x0000FF) / 255.0
-            return UIColor(red:r,green:g,blue:b,alpha:alpha)
-        } else {
-            print("invalid hex string")
-            return UIColor.whiteColor();
-        }
-    }
-}
-
-public extension NSOperationQueue{
-
-}
-
-public extension UIView{
-    func removeSubViews(){
-        for view in self.subviews {
-            view.removeFromSuperview()
-        }
-    }
-    
-    func toUpperCornerRadius(){
-
-    }
-    func toLowerCornerRadius(){}
 }
 public extension NSDate {
     

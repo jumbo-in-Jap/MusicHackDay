@@ -18,6 +18,8 @@ NSLog("%@", res[0].description)
 })
 
 */
+
+/*
 class TASKAPI: NSObject {
     class func checkins(
                success: ((NSArray!) -> Void)!,
@@ -82,8 +84,6 @@ class TASKAPI: NSObject {
         
     }
     
-    
-    
-    
 
 }
+*/
