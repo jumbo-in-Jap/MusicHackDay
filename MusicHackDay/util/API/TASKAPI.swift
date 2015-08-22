@@ -7,6 +7,8 @@
 //
 
 import UIKit
+class TASKAPI: NSObject {
+}
 /*
 
 TASKAPI.login(NSDictionary(),
